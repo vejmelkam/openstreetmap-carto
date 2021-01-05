@@ -10,7 +10,7 @@
   }
 }
 
-#addresses {
+#addresses { /*
   [zoom >= 17] {
     text-name: "[addr_housename]";
     ["addr_housenumber" != null] {
@@ -56,7 +56,7 @@
         text-margin: 3.3; // 0.3 em
     }
   }
-}
+*/ }
 
 /* Building names (rendered differently from addresses because they are
 no official postal addresses) */
